@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     ' ', 'A', '.', ' ',
     'S', 'h', 'a', 'w', '\0'
   };
+
   printf("The size of an int: %ld\n", sizeof(int));
   printf("The size of areas (int[]): %ld\n", sizeof(areas));
   printf("The first area is %d, the 2nd %d.\n", areas[0], areas[1]);
