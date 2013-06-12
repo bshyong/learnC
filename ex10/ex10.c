@@ -7,6 +7,8 @@ int main(int argc, char *argv[])
     int i = 0;
 
     // go through each string in argv
+    // skipping argv[0] because the element
+    // at index 0 is the name of the program (ex10)
     for(i = 1; i < argc; i++) {
         printf("arg %d: %s\n", i, argv[i]);
     }
